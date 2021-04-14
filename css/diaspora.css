@@ -320,3 +320,25 @@ pre .keyword,pre .javascript .function {color:#cc99cc;}
   .article .side {display:none}
   .comment .gt-btn-public .gt-btn-text:after{content:"";}
 }
+
+/*视频*/
+.newplayer {
+    padding-bottom: 80%;
+    position: relative;
+    width: 100%;
+}
+.video-player {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+} 
+/*视频封面*/
+.img-video {
+    background-size: cover;
+    border-radius: 4px;
+    display: block;
+    width: 160px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+}
